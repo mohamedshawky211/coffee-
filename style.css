@@ -1,0 +1,202 @@
+/* General Body Reset */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Background Image for the first section */
+.asasy {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Navigation List Style */
+.list ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.list ul li {
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+.list ul li:hover {
+    color: #F5F5DC;
+}
+
+/* Main Heading Styles */
+.head {
+    text-align: center;
+    margin: 250px;
+    color: #6A4E23;
+}
+
+.head button {
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #8B5E3C;
+    color: white;
+}
+
+.head button:hover {
+    background-color: #D2691E;
+}
+
+/* Second Section - Who We Are */
+.second {
+    display: flex;
+    border: solid 5px #B87A4B;
+    text-align: center;
+    border-radius: 5px;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff6e5;
+}
+
+.ph {
+    width: 45%;
+}
+
+.ph img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* Third Section - Our Location */
+.third {
+    display: flex;
+    border: solid 5px #B87A4B;
+    text-align: center;
+    border-radius: 5px;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff6e5;
+}
+
+.our {
+    margin: auto 50px;
+}
+
+.phh {
+    float: left;
+    width: 45%;
+}
+
+.phh img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px;
+}
+
+/* Our Signature Blends */
+.mo {
+    text-align: center;
+    margin: 20px;
+    color: #6A4E23;
+}
+
+/* Fourth Section - Coffee Types */
+.fourth {
+    display: flex;
+    margin: 50px auto;
+    border: solid 5px #009688;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.one {
+    text-align: center;
+    float: left;
+    margin: 33.3px;
+    border: solid 2px #009688;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background: white;
+}
+
+.one:hover {
+    transform: scale(1.05);
+    background-color: #F5F5DC;
+}
+
+.one img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+/* Location Section - Map and Text */
+.location {
+    display: flex;
+    margin: 20px 50px;
+    padding: 20px;
+}
+
+.text {
+    margin-top: 50px;
+    margin-left: 50px;
+    flex: 1;
+}
+
+.map {
+    min-width: 300px;
+    flex: 1;
+}
+
+.location .map iframe {
+    height: 300px;
+    border: none;
+}
+
+/* Contact Section */
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+.container {
+    flex: 1;
+    min-width: 250px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    margin: 20px;
+}
+
+/* Footer (Info) */
+.info {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: white;
+    background-color: #3f51b5;
+    position: relative;
+    min-width:100vh ;
+}
+
+.info-cap img {
+    height: 100px;
+}
+
+.info p {
+    margin-top: 10px;
+    font-size: 16px;
+}
